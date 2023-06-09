@@ -2,7 +2,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 
 function Home() {
   return (
-    <div name='home' className='w-full h-screen bg-[#0A192F]'>
+    <section name='home' className='w-full h-screen bg-[#0A192F]'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-pink-600'>Hi, my name is</p>
@@ -27,7 +27,7 @@ function Home() {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
