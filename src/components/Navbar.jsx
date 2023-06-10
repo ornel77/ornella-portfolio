@@ -112,7 +112,9 @@ function Navbar() {
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 ease-in-out bg-[#333]'>
             <a
-              href='/'
+              href='https://github.com/ornel77'
+              target='_blank'
+              rel='noreferrer'
               className='flex justify-between items-center w-full text-gray-300'
             >
               Github <FaGithub size={30} />{' '}
@@ -120,24 +122,28 @@ function Navbar() {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 ease-in-out bg-blue-600'>
             <a
-              href='/'
+              href='https://www.linkedin.com/in/otomboza/'
+              target='_blank'
+              rel='noreferrer'
               className='flex justify-between items-center w-full text-gray-300'
             >
               Linkedin <FaLinkedin size={30} />{' '}
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 ease-in-out bg-[#6FC2B0]'>
+          {/* <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 ease-in-out bg-[#6FC2B0]'>
             <a
               href='/'
               className='flex justify-between items-center w-full text-gray-300'
             >
               Email <HiOutlineMail size={30} />{' '}
             </a>
-          </li>
+          </li> */}
           <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 ease-in-out bg-[#565F69]'>
             <a
-              href='/'
+              href='../../cv/CV.pdf'
               className='flex justify-between items-center w-full text-gray-300'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               Resume <BsFillPersonLinesFill size={30} />{' '}
             </a>
