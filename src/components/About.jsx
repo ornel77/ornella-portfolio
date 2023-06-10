@@ -17,11 +17,9 @@ function About() {
               <p>Hi. I&apos;m Ornella, nice to meet you. Please take a look around.</p>
             </article>
             <article>
-              <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?</p>  
+              <p>I am passionate about building projects with few lines of code. That is why few years age I studied and had my Dimploma in Technological Studies in Computer Science.</p>  
+              <br />
+              <p>Next in my journey, I decided to work in audiovisual and I had the opportunity to work at Radio France for eight years. It didn&apos;t prevent me to stop learning programmtion by myself and keeping me up to date with the new technologies</p>
             </article>
           </div>
       </div>

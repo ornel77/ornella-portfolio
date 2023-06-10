@@ -1,4 +1,5 @@
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import { Link } from 'react-scroll';
 
 function Home() {
   return (
@@ -13,18 +14,25 @@ function Home() {
           I&apos;m a Full Stack Developer
         </h2>
         <p className='text-[#8892B0] py-4 max-w-[700px]'>
-          Passionate by programation, I&apos;m a Full Stack Developer. Lorem
-          ipsum dolor sit, amet consectetur adipisicing elit. Iure delectus,
-          dolor distinctio harum pariatur facere!
+          I&apos;m currently doing a 5 month
+          training at Wild Code School in Paris. The programm is focus on
+          Javascript, React, NodeJS and Express.
+        </p>
+        <p className='text-[#8892B0] py-4 max-w-[700px]'>
+          I&apos;m looking for a one year apprenticeship starting in September
+          2023 and I can wait to be able to collaborate and participate in exciting
+          projects.
         </p>
         <div>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 duration-300'>
-            View Work{' '}
-            <span className='group-hover:rotate-90 duration-300'>
-              {' '}
-              <HiArrowNarrowRight className='ml-3' />{' '}
-            </span>
-          </button>
+          <Link to='projects' smooth={true} duration={500}>
+            <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 duration-300'>
+              View Work{' '}
+              <span className='group-hover:rotate-90 duration-300'>
+                {' '}
+                <HiArrowNarrowRight className='ml-3' />{' '}
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </section>
