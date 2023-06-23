@@ -19,7 +19,7 @@ function About() {
             <article>
               <p>I am passionate about programming and building projects. That is why few years ago, I got my Technological Studies Degree (DUT) in Computer Science.</p>  
               <br />
-              <p>Next in my journey, I decided to work in media and I had the opportunity to work at Radio France for eight years. It didn&apos;t prevent me to stop learning programmation by myself and keeping me up to date with new technologies</p>
+              <p>Next in my journey, I decided to work in media and I had the opportunity to work at Radio France for eight years. It didn&apos;t prevent me to stop learning programmation by myself and keeping me up to date with new technologies.</p>
             </article>
           </div>
       </div>
