@@ -14,12 +14,12 @@ function About() {
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <article className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I&apos;m Ornella, nice to meet you. Please take a look around.</p>
+              <p>Hi. I&apos;m Ornella. Please take a look around.</p>
             </article>
             <article>
-              <p>I am passionate about building projects with few lines of code. That is why few years age I studied and had my Dimploma in Technological Studies in Computer Science.</p>  
+              <p>I am passionate about programming and building projects. That is why few years ago, I got my Technological Studies Degree (DUT) in Computer Science.</p>  
               <br />
-              <p>Next in my journey, I decided to work in audiovisual and I had the opportunity to work at Radio France for eight years. It didn&apos;t prevent me to stop learning programmtion by myself and keeping me up to date with the new technologies</p>
+              <p>Next in my journey, I decided to work in media and I had the opportunity to work at Radio France for eight years. It didn&apos;t prevent me to stop learning programmation by myself and keeping me up to date with new technologies</p>
             </article>
           </div>
       </div>

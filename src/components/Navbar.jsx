@@ -1,10 +1,12 @@
 import { useState } from 'react';
 import logo from '../assets/ot-logo-zip-file/svg/logo-no-background.svg';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
+// import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 import { Link } from 'react-scroll';
+
+import CV from '../../cv/CV.pdf'
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -51,16 +53,16 @@ function Navbar() {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className='md:hidden z-20 cursor-pointer'>
+      <div onClick={handleClick} className='md:hidden z-[2000] cursor-pointer'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* Mobile Menu  */}
       <div
         className={
-          !nav
-            ? 'absolute left-[-100%]'
-            : 'absolute w-full h-screen top-0 left-0 bg-[#0A192F] flex flex-col justify-center items-center duration-500 z-10'
+          nav
+            ? 'absolute w-full h-screen top-0 left-0 bg-[#0A192F] flex flex-col justify-center items-center duration-500'
+            : 'absolute left-[-100%]'
         }
       >
         <ul className='duration-300'>
@@ -140,7 +142,7 @@ function Navbar() {
           </li> */}
           <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300 ease-in-out bg-[#565F69]'>
             <a
-              href='../../cv/CV.pdf'
+              href={CV}
               className='flex justify-between items-center w-full text-gray-300'
               target='_blank'
               rel='noopener noreferrer'

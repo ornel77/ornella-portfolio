@@ -19,10 +19,10 @@ function Projects() {
                     <div className='opacity-0 group-hover:opacity-100 duration-500 text-center'>
                         <span className='text-2xl font-bold text-white tracking-wider'>PokemonLite</span>
                         <div className='pt-8 text-center'>
-                            <a href="https://pokemon-lite.vercel.app/Path/PokemonGuesser" target='_blank' rel="noreferrer">
+                            <a href="https://pokemon-lite.vercel.app" target='_blank' rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/" target='_blank'>
+                            <a href="https://github.com/ornel77/pokemon-lite" target='_blank' rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -38,7 +38,7 @@ function Projects() {
                             <a href="https://ornel77.github.io/loopstudios-landing-page-main/" target='_blank'  rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/" target='_blank'>
+                            <a href="https://github.com/ornel77/loopstudios-landing-page-main" target='_blank' rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -50,10 +50,10 @@ function Projects() {
                     <div className='opacity-0 group-hover:opacity-100 duration-500 text-center'>
                         <span className='text-2xl font-bold text-white tracking-wider'>Portfolio</span>
                         <div className='pt-8 text-center'>
-                            <a href="/" target='_blank'>
+                            <a href="https://my-portfolio-teal-theta.vercel.app/" target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="/" target='_blank'>
+                            <a href="https://github.com/ornel77/ornella-portfolio" target='_blank' rel="noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
