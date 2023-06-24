@@ -5,7 +5,7 @@ function GoBackButton() {
   return (
     <div>
       <Link to="/">
-      <AiOutlineArrowLeft size={30}/>
+      <AiOutlineArrowLeft size={30} className="shake-horizontal"/>
       </Link>
       
     </div>

@@ -28,3 +28,13 @@
     hsla(242,74%, 61%, .8)
     )!important; 
 }
+
+.language {
+  display: inline-block;
+  padding: 4px 12px;
+  background-color: #12383F;
+  border-radius: 6px;
+  color: #5CE7D1;
+  font-size: 14px;
+}
+
