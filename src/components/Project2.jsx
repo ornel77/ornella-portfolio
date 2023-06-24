@@ -7,7 +7,7 @@ import Loopstudios from '../assets/projects/loopstudios.png'
 
 function Project2() {
   return (
-    <div className='w-full h-full md:h-screen bg-[#0A192F] text-gray-300 pt-6'>
+    <div className='w-full h-screen md:h-screen bg-[#0A192F] text-gray-300 pt-6'>
       
       <div className='max-w-[1000px] mx-auto p-4 w-full h-full'>
       <div>
@@ -23,7 +23,7 @@ function Project2() {
           </div>
           <div className='md:w-full flex flex-col gap-6'>
             <p className='mt-6 md:mt-0'>
-              I took this landing page on Frontend Mentor, a platform that help us to improve our front-end skills by building real projects. They give us the figma design and we have to code the project using the techniologies you want.  
+              I took this landing page on Frontend Mentor, a platform that help us improve our front-end skills by building real projects. They give us the figma design and we have to code the project using the techniologies you want.  
             </p>
             <p>
             What is great with this platform is that we can have the feedback from other developpers so it&apos;s great to improve faster.
