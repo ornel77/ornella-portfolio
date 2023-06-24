@@ -5,7 +5,7 @@ import { TbWorld} from 'react-icons/tb';
 
 function Project1() {
   return (
-    <div className='w-full h-full md:h-screen bg-[#0A192F] text-gray-300 pt-6'>
+    <div className='w-full h-screen md:h-screen bg-[#0A192F] text-gray-300 pt-6'>
       <div className='max-w-[1000px] mx-auto p-4 w-full h-full'>
         <div>
           <GoBackButton />
@@ -15,7 +15,7 @@ function Project1() {
         <div className='md:flex gap-8 md:mt-16 mt-8'>
           <div className='w-full'>
           <video  loop={true} autoPlay controls>
-            <source src="/pokemonlite.mov"/>
+            <source src="/pokemonlite.mp4"/>
           </video>
           </div>
           <div className='md:w-full flex flex-col gap-6'>

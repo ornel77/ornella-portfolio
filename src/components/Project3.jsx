@@ -16,7 +16,7 @@ function Project3() {
         <div className='md:flex gap-8 md:mt-16 mt-8'>
           <div className="w-full">
           <video loop autoPlay controls>
-            <source src='/portfolio.mov'/>
+            <source src='/portfolio.mp4'/>
           </video>
           </div>
           <div className='md:w-full flex flex-col gap-6'>
