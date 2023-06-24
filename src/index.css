@@ -39,21 +39,32 @@
 }
 @media (min-width: 768px) {
   .card {
-    transform: rotateX(10deg) rotateY(-30deg);
+    /* transform: rotateX(10deg) rotateY(-30deg);
 
 	transition: ease all 1.5s;
-  /* transform-style: preserve-3d;
+   transform-style: preserve-3d;
 	perspective: 1200px;
-  z-index: 2; */
+  z-index: 2;  */
+  -webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004);
+  
+  transform-origin:center;
+  transform:perspective(800px) rotateY(25deg);
+  transition:0.5s;
+  }
+
+  .cards-container:hover .card {
+    opacity: .3;
+  }
+
+  .cards-container .card:hover {
+    transform:perspective(800px) rotateY(0deg);
+  opacity:1;
   }
 
   
-  .card:hover {
+  /* .card:hover {
     transform: rotateX(0deg) rotateY(0deg);
-    /* transform: rotate3d(.1, 1, 0, 45deg); */
-
-
-  }
+  } */
 
  
 

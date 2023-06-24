@@ -17,7 +17,7 @@ function Projects() {
           <p className='py-6'>Check out some of my recent work</p>
         </div>
 
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 justify-center md:mt-4'>
+        <div className='cards-container grid sm:grid-cols-2 md:grid-cols-3 gap-8 justify-center md:mt-4'>
           {/* Card Item hover:scale-110 duration-500*/}
           <article className='card w-full shadow-md shadow-[#040C16]'>
             <div className="cover">
