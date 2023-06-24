@@ -17,24 +17,27 @@ function Projects() {
           <p className='py-6'>Check out some of my recent work</p>
         </div>
 
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 justify-center'>
-          {/* Card Item */}
-          <article className='w-full shadow-md shadow-[#040C16] hover:scale-110 duration-500 '>
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 justify-center md:mt-4'>
+          {/* Card Item hover:scale-110 duration-500*/}
+          <article className='card w-full shadow-md shadow-[#040C16]'>
+            <div className="cover">
             <Link to='/project-1'>
               <img src={Poke} alt='' className='project-img border-b-2 border-pink-600'/>
-            <h3 className='text-2xl text-center p-4'>Pokemon Lite</h3>
-            <div className='flex flex-wrap gap-4 p-4'>
-            <span className='language'>React </span>
-              <span className='language'>Git </span>
-              <span className='language'>Sass </span>
-              <span className='language'>Fetch</span>
-              <span className='language'>API</span>
-              <span className='language'>Figma</span>
-            </div>
+              <h3 className='text-2xl text-center p-4'>Pokemon Lite</h3>
+              <div className='stacks flex flex-wrap gap-4 p-4'>
+                <span className='language'>React </span>
+                <span className='language'>Git </span>
+                <span className='language'>Sass </span>
+                <span className='language'>Fetch</span>
+                <span className='language'>API</span>
+                <span className='language'>Figma</span>
+              </div>
             </Link>
+            </div>
+           
           </article>
 
-          <article className='w-full shadow-md shadow-[#040C16] hover:scale-110 duration-500'>
+          <article className='card w-full shadow-md shadow-[#040C16]'>
             <Link to='/project-2'>
               <img src={Loopstudios} alt='' className='project-img border-b-2 border-pink-600'/>
             <h3 className='text-2xl text-center p-4'>Loopstudios</h3>
@@ -49,7 +52,7 @@ function Projects() {
             </Link>
           </article>
 
-          <article className='w-full shadow-md shadow-[#040C16] hover:scale-110 duration-500'>
+          <article className='card w-full shadow-md shadow-[#040C16]'>
           <Link to='/project-3'>
               <img src={Portfolio} alt='' className='project-img border-b-2 border-pink-600'/>
             <h3 className='text-2xl text-center p-4'>Portfolio</h3>

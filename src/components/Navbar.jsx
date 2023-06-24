@@ -24,7 +24,7 @@ function Navbar() {
 
       {/* Menu */}
 
-      <ul className='hidden md:flex'>
+      <ul className='hidden md:flex md:z-10'>
         <li>
           <Link to='home' smooth={true} duration={500} className="hover:text-pink-600 duration-300">
             Home
