@@ -2,7 +2,6 @@ import GoBackButton from './GoBackButton';
 import { FaGithub} from 'react-icons/fa';
 import { TbWorld} from 'react-icons/tb';
 
-import Portfolio from '../assets/projects/portfolio.png';
 
 
 function Project3() {
@@ -16,8 +15,9 @@ function Project3() {
 
         <div className='md:flex gap-8 md:mt-16 mt-8'>
           <div className="w-full">
-
-          <img src={Portfolio} alt='' className='inline-block object-cover' />
+          <video loop autoPlay controls>
+            <source src='/portfolio.mov'/>
+          </video>
           </div>
           <div className='md:w-full flex flex-col gap-6'>
             <p className='mt-6 md:mt-0'>

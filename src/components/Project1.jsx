@@ -2,7 +2,6 @@ import GoBackButton from './GoBackButton';
 import { FaGithub} from 'react-icons/fa';
 import { TbWorld} from 'react-icons/tb';
 
-import Poke from '../assets/projects/pokemonlite.png';
 
 function Project1() {
   return (
@@ -15,8 +14,9 @@ function Project1() {
 
         <div className='md:flex gap-8 md:mt-16 mt-8'>
           <div className='w-full'>
-          <img src={Poke} alt='' className=' inline-block object-cover' />
-
+          <video  loop={true} autoPlay controls>
+            <source src="/pokemonlite.mov"/>
+          </video>
           </div>
           <div className='md:w-full flex flex-col gap-6'>
             <p className='mt-6 md:mt-0'>
