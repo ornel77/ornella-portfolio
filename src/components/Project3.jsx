@@ -21,7 +21,7 @@ function Project3() {
           </div>
           <div className='md:w-full flex flex-col gap-6'>
             <p className='mt-6 md:mt-0'>
-              Nothing much to say about my portfolio. I took the opportunity to learn Tailwind CSS while building it. This is the first version, I really want to improve it, with some animations for example.
+              I took the opportunity to learn Tailwind CSS while building my portfolio.
             </p>
     
             <div className='flex gap-4 flex-wrap'>
