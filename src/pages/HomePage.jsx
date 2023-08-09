@@ -8,14 +8,14 @@ import Skills from "../components/Skills"
 
 function HomePage() {
   return (
-    <>
+    <div className="bg-[#0A192F] text-gray-300">
         <Navbar />
         <Home />
         <About />
         <Skills />
         <Projects />
         <Contact />
-    </>
+    </div>
   )
 }
 
