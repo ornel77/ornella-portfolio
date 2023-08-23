@@ -20,10 +20,12 @@ function Project4() {
           </div>
           <div className='md:w-full flex flex-col gap-6'>
             <p className='mt-6 md:mt-0'>
-              This is a three days hackathon project. The goal was to do a full stack application to repertoriate the incoming of reconditionate smartphone and estimate a price at which they can sell it.
+            This was a three-day hackathon project. The objective was to create a full-stack application for cataloging incoming reconditioned smartphones and estimating a resale price for them.
+
+
             </p>
             <p>
-                We won the technical price for this project and it&apos;s one I am really proud because we did not have much time. We didn&apos;t deploy it yet so you can watch the video to get a sense of the project
+            We were awarded the technical prize for this project, and I am particularly proud of it since we had limited time. Although we have not deployed it yet, you can watch the video to gain an understanding of the project.
             </p>
     
             <div className='flex gap-4 flex-wrap'>
