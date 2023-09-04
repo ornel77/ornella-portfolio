@@ -14,7 +14,7 @@ function Home() {
           I&apos;m a Full Stack Developer
         </h2>
         <p className='text-[#8892B0] py-4 max-w-[700px]'>
-          I&apos;m currently doing a 5 month
+          I just finished my 5 month
           training at Wild Code School in Paris. The programm is focused on
           Javascript, React, NodeJS and Express.
         </p>
